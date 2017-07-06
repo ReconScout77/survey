@@ -13,11 +13,11 @@
       <div>
         <form id="formOne">
           <div class="form-group">
-            <label for="name">What is your name?</label>
+            <h3><label for="name">What is your name?</label></h3>
             <input id="name" class="form-control" type="text">
           </div>
 
-          <h3>What is your favorite meal of the day?</h3>
+          <h3><label>What is your favorite meal of the day?</label></h3>
           <div class="radio">
             <label>
               <input type="radio" name="meal" value="Breakfast">
@@ -38,10 +38,14 @@
           </div>
 
           <div class="form-group">
-            <label for="born">When is your birthday?</label>
+            <h3><label for="born">When is your birthday?</label></h3>
             <input id="born" class="form-control" type="date">
           </div>
 
+          <div class="form-group">
+            <h3><label for="color">What is your mood in a color?</label></h3>
+            <input id="color" class="form-control" type="color">
+          </div>
 
           <button type="submit" class="btn btn-info">Submit</button>
         </form>
@@ -53,6 +57,7 @@
         <br>
         <p>Your favorite meal: <span class="meal"></span></p>
         <p>Your birthday: <span class="born"></span></p>
+        <p>Your mood: <span class="color"></span></p>
       </div>
     </div>
   </body>
